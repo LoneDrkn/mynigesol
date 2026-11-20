@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f3f5f9;
+  color: #172033;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 24px;
+}
+
+.card {
+  width: min(100%, 520px);
+  padding: 32px;
+  border: 1px solid #e1e6ef;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 12px 32px rgb(23 32 51 / 8%);
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.intro {
+  margin: 8px 0 24px;
+  color: #5d6779;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #cbd3df;
+  border-radius: 8px;
+  color: inherit;
+  font: inherit;
+}
+
+input:focus {
+  border-color: #4263eb;
+  outline: 3px solid rgb(66 99 235 / 18%);
+}
+
+.output {
+  min-height: 112px;
+  margin-top: 24px;
+  padding: 16px;
+  border-radius: 8px;
+  background: #f3f5f9;
+  overflow-wrap: anywhere;
+}
+
+.output h2 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+}
+
+.output p {
+  margin: 0;
+  color: #5d6779;
+  white-space: pre-wrap;
+}
